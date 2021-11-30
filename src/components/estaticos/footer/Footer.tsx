@@ -14,13 +14,13 @@ function Footer() {
                             <Typography variant="h6" align="center" gutterBottom style={{ color: "white" }}>Siga-nos nas redes sociais </Typography>
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center">
-                            <a href="https://twitter.com/doramoucast" target="_blank">
+                            <a href="https://twitter.com/doramoucast" target="_blank" rel="noreferrer">
                                 <TwitterIcon style={{ fontSize: 40, color: "white" }} />
                             </a>
-                            <a href="https://www.instagram.com/doramoucast/" target="_blank">
+                            <a href="https://www.instagram.com/doramoucast/" target="_blank" rel="noreferrer">
                                 <InstagramIcon style={{ fontSize: 40, color: "white" }} />
                             </a>
-                            <a href="https://open.spotify.com/show/1WBCtXiL3c04sVpE1NgisX?si=f4b9deeab5514ec1" target="_blank">
+                            <a href="https://open.spotify.com/show/1WBCtXiL3c04sVpE1NgisX?si=f4b9deeab5514ec1" target="_blank" rel="noreferrer">
                                 <PlayCircleFilledIcon style={{ fontSize: 40, color: "white" }} />
                             </a>
                         </Box>
