@@ -1,0 +1,19 @@
+.box1 {
+    background-color: #D92B4B;
+    height: 80px;
+}
+
+.box2 {
+    background-color: #D92B4B;
+    height: 50px;
+    line-height: 0.4 !important;
+}
+
+.cor-texto {
+    color: white;
+}
+
+.icon {
+    font-size: 40px !important;
+    color: white;
+}

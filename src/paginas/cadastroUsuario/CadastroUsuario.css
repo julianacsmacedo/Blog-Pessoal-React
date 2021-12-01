@@ -1,0 +1,8 @@
+.imagem2{
+    background-image: url("../../assets/images/capaHome1.png");
+    background-repeat: no-repeat;
+    width: 90vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: left;
+}

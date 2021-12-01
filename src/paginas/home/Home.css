@@ -1,13 +1,27 @@
-.titulo {
-    color: blue;
-    text-align: center;
+.back {
+    background-color: #FFE6DB;
 }
 
 .background{
     background-image: url("../../assets/images/capaHome1.png");
     background-repeat: no-repeat;
     width: 90vh;
-    min-height: 80vh;
-    background-size: 90%;
+    min-height: 100vh;
+    background-size: 100%;
     background-position: right;
+}
+
+.titulo {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.botao {
+    border-color: white !important;
+    background-color: #D92B4B !important;
+    color: white !important;
+}
+
+.postagens {
+    background-color: white !important;
 }
