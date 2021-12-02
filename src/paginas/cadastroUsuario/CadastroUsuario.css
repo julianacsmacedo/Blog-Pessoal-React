@@ -1,8 +1,17 @@
-.imagem2{
+.imagem2 {
     background-image: url("../../assets/images/capaHome1.png");
     background-repeat: no-repeat;
-    width: 90vh;
+    transform: rotateY(180deg);
+    width: 100vh;
     min-height: 100vh;
     background-size: cover;
-    background-position: left;
+    background-position: center;
+}
+
+.texto2 {
+    font-weight: bold !important;
+}
+
+.btnCancelar {
+    margin-right: 20px !important;
 }
