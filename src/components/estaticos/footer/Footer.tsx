@@ -9,7 +9,7 @@ function Footer() {
     return (
         <>
             <Grid container direction="row" justifyContent="center" alignItems="center">
-                <Grid alignItems="center" item xs={12}>
+                <Grid item xs={12}>
                     <Box className="box1">
                         <Box paddingTop={1} alignItems="center" justifyContent="center">
                             <Typography variant="h6" align="center" gutterBottom className="cor-texto">Siga-nos nas redes sociais </Typography>
