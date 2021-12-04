@@ -1,16 +1,16 @@
-import axios from "axios";
+import axios from 'axios';
 
 export const api = axios.create({
     baseURL: 'https://doramoucast.herokuapp.com'
 })
 
-    export const login = async(url: any, dados: any, setDado: any) => {
-        const resposta = await api.post(url, dados)
+    export const cadastroUsuario = async(url: any,dados: any,setDado: any) => { 
+        const resposta = await api.post(url,dados)
         setDado(resposta.data)
     }
 
-    export const cadastroUsuario = async(url: any, dados: any, setDado: any) => {
-        const resposta = await api.post(url, dados)
+    export const login = async(url: any,dados: any,setDado: any) => { 
+        const resposta = await api.post(url,dados)
         setDado(resposta.data.token)
     }
 
