@@ -1,0 +1,17 @@
+.MuiToolbar-root {
+    justify-content: space-around;
+}
+
+
+.texto {
+    color: #D92B4B;
+}
+
+.text-decorator-none {
+    text-decoration: none !important;
+}
+
+.cursor {
+    cursor: pointer;
+    color: white;
+}

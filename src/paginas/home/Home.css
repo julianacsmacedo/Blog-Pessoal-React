@@ -1,11 +1,32 @@
-.titulo {
-    color: blue;
-    text-align: center;
+.back {
+    background-color: #FFE6DB;
 }
 
-.img {
-    width: 500px;
-    height: 400px;
-    display: block;
-    margin: 0 auto;
+.background{
+    background-image: url("../../assets/images/capaHome1.png");
+    background-repeat: no-repeat;
+    width: 90vh;
+    min-height: 100vh;
+    background-size: 100%;
+    background-position: right;
 }
+
+.titulo {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.titulo1 {
+    color: black !important;
+}
+
+.botao {
+    border-color: #FFE6DB !important;
+    background-color: #D92B4B !important;
+    color: white !important;
+}
+
+.postagens {
+    background-color: white !important;
+}
+

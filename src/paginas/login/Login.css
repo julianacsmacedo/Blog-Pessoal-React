@@ -1,0 +1,22 @@
+.back {
+    background-color: #FFE6DB;
+}
+
+.texto1 {
+    font-weight: bold !important;
+    color: #4043e4;
+}
+
+.text-decorator-none {
+    text-decoration: none !important;
+}
+
+.background2{
+    background-image: url("../../assets/images/capaHome1.png");
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: 85%;
+    background-position: right;
+}
+
