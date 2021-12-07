@@ -1,6 +1,7 @@
 import React from "react";
 import './Home.css';
 import {Grid, Box, Typography, Button} from '@material-ui/core';
+import TabPostagem from '../../components/postagens/tabpostagem/TabPostagem';
 
 function Home() {
     return(
@@ -20,7 +21,9 @@ function Home() {
                 </Grid>
                 <Grid item xs={6} className="back">
                 </Grid>
+
                 <Grid xs={12} className="postagens">
+                < TabPostagem />
                 </Grid>
             </Grid>
         </>

@@ -6,12 +6,15 @@ import useLocalStorage from 'react-use-localstorage';
 import './Navbar.css';
 
 function Navbar() {
-    let history = useHistory(); // para redireccionar
-    const [token, setToken] = useLocalStorage('token'); // para guardar el token en el localstorage
+    let history = useHistory(); 
+    const [token, setToken] = useLocalStorage('token'); 
+    
     function logout(){
-        setToken(''); // para apagar el token del localstorage
-        history.push('/login'); // para redireccionar a la pagina de login
+        setToken('');
+        alert("Usuário deslogado")
+        history.push('/login'); 
     }
+
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
@@ -33,21 +36,27 @@ function Navbar() {
                         </Link>
                         
                         <Box mx={1} className="cursor" >
+                            <Link to="/posts" className="text-decorator-none">
                             <Typography variant="h6" className="texto" sx={{ flexGrow: 1 }}>
                                 postagens
                             </Typography>
+                            </Link>
                         </Box>
 
                         <Box mx={1} className="cursor">
+                            <Link to="/temas" className="text-decorator-none">
                             <Typography variant="h6" className="texto" sx={{ flexGrow: 1 }}>
                                 temas
                             </Typography>
+                            </ Link>
                         </Box>
 
                         <Box mx={1} className="cursor" >
+                            <Link to="/formularioTema" className="text-decorator-none">
                             <Typography variant="h6" className="texto" sx={{ flexGrow: 1 }}>
                                 cadastrar tema
                             </Typography>
+                            </Link>
                         </Box>
                         
                         <Box paddingLeft={70} mx={1} className='cursor' sx={{ flexGrow: 1 }}>
