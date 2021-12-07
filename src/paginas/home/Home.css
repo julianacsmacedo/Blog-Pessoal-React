@@ -16,8 +16,12 @@
     font-weight: bold !important;
 }
 
+.titulo1 {
+    color: black !important;
+}
+
 .botao {
-    border-color: white !important;
+    border-color: #FFE6DB !important;
     background-color: #D92B4B !important;
     color: white !important;
 }
@@ -25,3 +29,4 @@
 .postagens {
     background-color: white !important;
 }
+
