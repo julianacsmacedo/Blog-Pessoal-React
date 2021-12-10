@@ -17,3 +17,7 @@
     font-size: 40px !important;
     color: white;
 }
+
+.text-decorator-none {
+    text-decoration: none !important;
+}

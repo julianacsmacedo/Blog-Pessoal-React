@@ -1,10 +1,10 @@
 .back {
-    background-color: #FFE6DB;
+    background-color: #F2F2F2;
 }
 
 .texto1 {
     font-weight: bold !important;
-    color: #4043e4;
+    color: #BF0B2C;
 }
 
 .text-decorator-none {
@@ -12,11 +12,11 @@
 }
 
 .background2{
-    background-image: url("../../assets/images/capaHome1.png");
+    background-image: url("../../assets/images/FundoCinza.png");
     background-repeat: no-repeat;
     width: 100vh;
     min-height: 100vh;
-    background-size: 85%;
+    background-size: 81.5%;
     background-position: right;
 }
 

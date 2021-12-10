@@ -2,9 +2,8 @@
     justify-content: space-around;
 }
 
-
 .texto {
-    color: #D92B4B;
+    color: white !important;
 }
 
 .text-decorator-none {
@@ -14,4 +13,8 @@
 .cursor {
     cursor: pointer;
     color: white;
+}
+
+.fundo {
+    background-color: #D92B4B !important;
 }

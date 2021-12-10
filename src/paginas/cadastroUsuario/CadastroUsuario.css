@@ -1,5 +1,5 @@
 .imagem2 {
-    background-image: url("../../assets/images/capaCadastro.png");
+    background-image: url("../../assets/images/capaCadastroFundo.png");
     background-repeat: no-repeat;
     width: 100vh;
     min-height: 100vh;
@@ -7,10 +7,23 @@
     background-position: center;
 }
 
-.texto2 {
-    font-weight: bold !important;
-}
-
 .btnCancelar {
     margin-right: 20px !important;
+    background-color: #156A8C !important;
+    color: white !important;
+}
+
+.texto-cadastro {
+    font-weight: bold !important;
+    color: #D92B4B;
+}
+
+.botaoCadastro {
+    border-color: #F2F2F2 !important;
+    background-color: #D92B4B !important;
+    color: white !important;
+}
+
+.fundoCadastro {
+    background-color: white;
 }

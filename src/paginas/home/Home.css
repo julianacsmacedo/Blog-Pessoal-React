@@ -1,32 +1,32 @@
 .back {
-    background-color: #FFE6DB;
+    background-color: #F2F2F2;
 }
 
 .background{
-    background-image: url("../../assets/images/capaHome1.png");
+    background-image: url("../../assets/images/FundoCinza.png");
     background-repeat: no-repeat;
-    width: 90vh;
-    min-height: 100vh;
-    background-size: contain;
+    width: 70vh;
+    min-height: 70vh;
+    background-size: cover;
     background-position: right;
 }
 
 .titulo {
-    color: black !important;
+    color: #BF0B2C !important;
     font-weight: bold !important;
 }
 
 .titulo1 {
-    color: black !important;
+    color: rgba(43, 43, 43, 0.904) !important;
 }
 
 .botao {
-    border-color: #FFE6DB !important;
+    border-color: #F2F2F2 !important;
     background-color: #D92B4B !important;
     color: white !important;
 }
 
 .postagens {
-    background-color: #FFE6DB !important;
+    background-color: #F2F2F2 !important;
 }
 
