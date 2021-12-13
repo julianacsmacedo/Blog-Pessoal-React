@@ -6,7 +6,7 @@ import './Navbar.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/tokensReducer';
 import { addToken } from '../../../store/tokens/actions';
-import {toast} from 'react-toastify';
+import { toast } from 'react-toastify';
 
 function Navbar() {
     const token = useSelector<TokenState, TokenState["tokens"]>(
@@ -84,8 +84,8 @@ function Navbar() {
                 </Box>
             </Toolbar>
         </AppBar>
-    }
-
+    } 
+    
     return (
         <>
             {navbarComponent}
